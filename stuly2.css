@@ -1,0 +1,25 @@
+
+body{
+    margin: 0;
+    padding: 0;	
+    text-align: left;
+}
+.chess {
+    width: 500px;   
+    margin: 0 auto;	
+    padding: 0;
+    list-style: none;
+}
+.chess li {
+    float: left;
+     width: 19%;   
+    border: 1px solid #ddd;
+    margin: -1px -1px 0 0; 
+    padding: 40px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #666; 
+}	
+.chess li:nth-child(odd) {
+    background: black;
+}
